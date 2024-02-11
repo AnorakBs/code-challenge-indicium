@@ -68,9 +68,9 @@ docker-compose up
 
 The pipeline consists of several stages, including data preparation, extraction, transformation, and loading. The process begins with a Python operator creating necessary folders and passing dates to other tasks, which then extract data from CSV and PostgreSQL sources and load it into a final PostgreSQL database.
 
-![pipeline image](images\Screenshot_1.png)
+![pipeline image](https://github.com/AnorakBs/code-challenge-indicium/blob/main/images/Screenshot_1.png)
 
-![pipeline image](images\Screenshot_4.png)
+![pipeline image](https://github.com/AnorakBs/code-challenge-indicium/blob/main/images/Screenshot_4.png)
 
 First, I have the Python operator that will create the folders, and also pass the date to my other tasks.
 
@@ -103,7 +103,7 @@ The DAG configuration enables running tasks for past dates, facilitating backfil
 
 The final part of the pipeline demonstrates querying the PostgreSQL database, joining tables to showcase the end results of the ETL process.
 
-![pipeline image](images\Screenshot_3.png)
+![pipeline image](https://github.com/AnorakBs/code-challenge-indicium/blob/main/images/Screenshot_3.png)
 
 ## Challenges Encountered
 
